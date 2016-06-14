@@ -16,7 +16,7 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "bellajs": "latest",
+    "bellajs": "5.1.3",
     "bluebird": "latest",
     "friendly-xml": "latest",
     "html-entities": "latest",
