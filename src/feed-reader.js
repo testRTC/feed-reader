@@ -54,7 +54,7 @@ var normalize = (link, title, pubDate, creator, description, content) => {
 
   if (!link || !title
     || !isString(link) || !isString(title)
-    || link.length < 10 || title.length < 10) {
+    || link.length < 10 /* || title.length < 10*/) {
     return false;
   }
 
